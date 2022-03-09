@@ -43,4 +43,5 @@ evaluate_design <- function(gamma, lambda, n1, n2, theta) {
   return(c(typeI = sum(fut1>c1)/M1, typeII=sum(fut2>c2)/M2))
 }
 #example
-evaluate_design(0.4,0.75,50,70,0.5)
+evaluate_design(0.4,0.75,50,70,0.5) 
+#test
